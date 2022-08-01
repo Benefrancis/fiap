@@ -1,5 +1,6 @@
 package br.com.benefrancis.documento.model;
 
+import java.text.DateFormat;
 import java.util.Date;
 
 /**
@@ -56,8 +57,10 @@ public class RG implements DocumentoEstadual {
 
 	@Override
 	public String toString() {
-		return "RG [numero=" + numero + ", orgaoEmissor=" + orgaoEmissor + ", dataEmissao=" + dataEmissao + ", UF=" + UF
-				+ "]";
+		
+		DateFormat df;
+		
+		return "RG " + numero + ", Orgao Emissor=" + orgaoEmissor + "/" + UF + ", data de emissao=" + dataEmissao;
 	}
 
 }

@@ -5,9 +5,8 @@ import java.util.Date;
 import br.com.benefrancis.documento.model.CPF;
 import br.com.benefrancis.documento.model.RG;
 
-
 /**
- * Onde a aplicação se inicia
+ * Onde a aplicacao se inicia
  * 
  * Sistema para cadastramento de documentos do Brasil.
  * 
@@ -27,26 +26,26 @@ import br.com.benefrancis.documento.model.RG;
 public class App {
 
 	/**
-	 * É aqui que o programa inicia. Podemos receber alguns argumentos
+	 * Eh aqui que o programa se inicia.
+	 * 
+	 * Podemos receber alguns argumentos
 	 * 
 	 * 
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		
+
 		CPF doc = new CPF();
 		doc.setNumero("24878891873");
-		
+
 		System.out.println(doc);
-		
-		
+
 		RG rg = new RG();
 		rg.setNumero("123456");
 		rg.setDataEmissao(new Date());
 		rg.setOrgaoEmissor("SSP");
 		rg.setUF("SP");
-		
-		
+
 		System.out.println(rg);
 	}
 

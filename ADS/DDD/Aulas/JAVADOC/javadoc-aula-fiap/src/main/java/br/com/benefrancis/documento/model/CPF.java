@@ -4,6 +4,8 @@ package br.com.benefrancis.documento.model;
  * Classe que representa o CPF
  * 
  * @author Francis
+ * @version 1.0
+ * @since 1.0
  *
  */
 public class CPF implements DocumentoFederalPessoaFisica {
