@@ -1,5 +1,11 @@
 package br.com.benefrancis.documento.model;
 
-public interface DocumentoFederalPessoaJuridica extends Documento{
+/**
+ * Interface Documento Federal Pessoa Juridica
+ * 
+ * @author Francis
+ *
+ */
+public interface DocumentoFederalPessoaJuridica extends Documento {
 
 }

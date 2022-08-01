@@ -3,8 +3,8 @@ package br.com.benefrancis.documento.model;
 import java.util.Date;
 
 /**
- * Documento Brasileiro do estado que deve ser utilizado para identificação de
- * pessoas físicas
+ * Documento Brasileiro do estado que deve ser utilizado para identificacao de
+ * pessoas fisicas
  * 
  * @author Francis
  * @version 1.0

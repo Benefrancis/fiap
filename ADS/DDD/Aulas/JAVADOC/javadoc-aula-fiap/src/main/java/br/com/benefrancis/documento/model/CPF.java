@@ -1,7 +1,7 @@
 package br.com.benefrancis.documento.model;
 
 /**
- * Classe que representará o CPF na minha aplicação
+ * Classe que representa o CPF
  * 
  * @author Francis
  *

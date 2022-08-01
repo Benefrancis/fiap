@@ -1,5 +1,10 @@
 package br.com.benefrancis.documento.model;
-
+/**
+ * Classe que representa o Cadastro Nacional de Pessoa Juridica
+ * 
+ * @author Francis
+ *
+ */
 public class CNPJ implements DocumentoFederalPessoaJuridica {
 
 	private String numero;
@@ -10,7 +15,7 @@ public class CNPJ implements DocumentoFederalPessoaJuridica {
 	}
 
 	/**
-	 * Scrip para validação do CNPJ
+	 * Scrip para validacao do CNPJ
 	 * 
 	 * @param numero
 	 * @return

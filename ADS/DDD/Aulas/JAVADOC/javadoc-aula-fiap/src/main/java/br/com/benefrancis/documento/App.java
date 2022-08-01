@@ -5,17 +5,18 @@ import java.util.Date;
 import br.com.benefrancis.documento.model.CPF;
 import br.com.benefrancis.documento.model.RG;
 
+
 /**
- * Onde a aplicação se iniciará
+ * Onde a aplicação se inicia
  * 
  * Sistema para cadastramento de documentos do Brasil.
  * 
- * No Brasil os documentos são emitidos pelos entes da Federação:
+ * No Brasil os documentos sao emitidos pelos entes da Federacao:
  * 
  * <ul>
- * <li>União</li>
+ * <li>Uniao</li>
  * <li>Estados</li>
- * <li>Municípios</li>
+ * <li>Municipios</li>
  * </ul>
  * 
  * @author Francis
@@ -32,8 +33,11 @@ public class App {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		
 		CPF doc = new CPF();
 		doc.setNumero("24878891873");
+		
+		System.out.println(doc);
 		
 		
 		RG rg = new RG();
@@ -41,6 +45,8 @@ public class App {
 		rg.setDataEmissao(new Date());
 		rg.setOrgaoEmissor("SSP");
 		rg.setUF("SP");
+		
+		
 		System.out.println(rg);
 	}
 

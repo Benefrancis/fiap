@@ -1,5 +1,11 @@
 package br.com.benefrancis.documento.model;
 
-public interface DocumentoMunicipal extends Documento{ 
+/**
+ * Documento Municipal
+ * 
+ * @author Francis
+ *
+ */
+public interface DocumentoMunicipal extends Documento {
 
 }
