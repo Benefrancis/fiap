@@ -25,7 +25,7 @@ public class App {
 
 			Scanner sc = new Scanner(System.in);
 
-			findByNameStartsWith(conn, sc);
+			findByName(conn, sc);
 
 			conn.close();
 			sc.close();
@@ -56,6 +56,27 @@ public class App {
 			System.out.println("Não foi possível salvar o aluno: " + e.getMessage());
 		}
 		return false;
+	}
+
+	private static void findByName(Connection conn, Scanner sc) throws SQLException {
+
+		System.out.println("Informa o nome do aluno: ");
+
+		String nome = sc.nextLine();
+
+		String sql = "SELECT * FROM ALUNO where upper(nome) =  '" + nome.toUpperCase() + "'";
+
+		//System.out.println(sql);
+		
+		ResultSet rs = conn.createStatement().executeQuery(sql);
+
+		if (rs.isBeforeFirst()) {
+			while (rs.next()) {
+				System.out.println(rs.getString("NOME"));
+			}
+		} else {
+			System.out.println("Não foi possível encontrar aluno com o nome informado");
+		}
 	}
 
 	private static void findByNameStartsWith(Connection conn, Scanner sc) throws SQLException {
