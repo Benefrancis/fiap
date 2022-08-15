@@ -38,7 +38,7 @@ public class App {
 		System.out.println("Programa encerrado com sucesso!");
 	}
 
-	public boolean salvar(Connection conn, Scanner sc) {
+	public static boolean salvar(Connection conn, Scanner sc) {
 
 		System.out.println("Informa o nome do aluno: ");
 
@@ -66,8 +66,6 @@ public class App {
 
 		String sql = "SELECT * FROM ALUNO where upper(nome) =  '" + nome.toUpperCase() + "'";
 
-		//System.out.println(sql);
-		
 		ResultSet rs = conn.createStatement().executeQuery(sql);
 
 		if (rs.isBeforeFirst()) {
