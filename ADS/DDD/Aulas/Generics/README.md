@@ -25,32 +25,32 @@ Vamos imaginar que eu precise criar um programa para realização de sorteios. Est
 
 Iremos então desenvolver a classe responsável pelo sorteio:
 
-<img src="imagens/integer-sorters.png" >
+<img src="./imagens/integer-sorters.png" >
 
 
 Agora desenvolveremos o programa para que o usuário impute os dados:
 
 
 
-<img src="imagens/app-int.png" >
+<img src="./imagens/app-int.png" >
 
 
 Ao rodar o programa, e imputar os dados conforme solicitado, temos como saída o valor sorteado:
 
 
-<img src="imagens/informe-1.png" >
+<img src="./imagens/informe-1.png" >
 
 
 O programa funciona perfeitamente e atende ao solicitado, mas digamos que o cliente solicite que agora o programa deva permitir que seja informado números do tipo ponto flutuante.
 
 Neste caso, devemos criar uma classe bastante semelhante a que fizemos anteriormente para sorteio de inteiros. Vamos lá:
 
-<img src="imagens/float-sorters.png" >
+<img src="./imagens/float-sorters.png" >
 
 A nossa classe App também deverá sofrer mudanças. Vamos a elas:
 
 
-<img src="imagens/app-float.png" >
+<img src="./imagens/app-float.png" >
 
 
 Perceba que modificamos, basicamente, apenas os tipos de dados e a maneira como imputá-lo com o Scanner.
@@ -58,7 +58,7 @@ Perceba que modificamos, basicamente, apenas os tipos de dados e a maneira como 
 
 No dia da entrega, seu cliente ficou novamente muito satisfeito com o programa, pois o sorteio foi realizado com perfeição. Veja imagem abaixo:
 
-<img src="imagens/informe-float.png" >
+<img src="./imagens/informe-float.png" >
 
 No final do dia seu cliente teve uma brilhante ideia. Como na semana que vem é o dia internacional das mulheres ele gostaria de sortear uma passagem para Natal para uma de suas funcionárias... 
 
@@ -72,14 +72,14 @@ Alguma coisa precisa ser feita para evitar essas modificações constantes nos req
 
 Nosso hipotético programador refatorou o código para que funcione de forma genérica, ou seja, independe de tipo ou objeto, a classe Sorter deverá ser capaz de realizar soteios. Deixou então de ter que construir uma classe para cada coisa que o cliente desejar sortear. Vejamos:
 
-<img src="imagens/sorter.png" >
+<img src="./imagens/sorter.png" >
 
 Com isso nossa Classe App ficará assim:
 
-<img src="imagens/AppGeneric.png" >
+<img src="./imagens/AppGeneric.png" >
 
 E tudo continua funcionando perfeitamente, porém sem a necessidade de criar uma classe diferente para cada tipo de coisa que se deseja sortear.
 
-<img src="imagens/informe-string.png" >
+<img src="./imagens/informe-string.png" >
 
 
