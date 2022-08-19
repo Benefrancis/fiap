@@ -2,11 +2,11 @@ package br.com.benefrancis.generics;
 
 import java.util.Random;
 
-public class IntegerSorter {
+public class IntSorter {
 
 	int[] valores;
 
-	public IntegerSorter(int[] valores) {
+	public IntSorter(int[] valores) {
 		super();
 		this.valores = valores;
 	}

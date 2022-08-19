@@ -15,5 +15,4 @@ public class FloatSorter {
 		Random r = new Random();
 		return valores[r.nextInt(valores.length)];
 	}
-
 }
