@@ -4,18 +4,11 @@ import java.util.Random;
 
 public class Sorter<T> {
 
-	T[] valores;
-
-	public Sorter(T[] valores) {
+	public Sorter() {
 		super();
-		this.valores = valores;
 	}
 
-	public T[] getValores() {
-		return valores;
-	}
-
-	public T sortear() {
+	public T sortear(T[] valores) {
 		Random r = new Random();
 		return valores[r.nextInt(valores.length)];
 	}
