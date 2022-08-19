@@ -60,7 +60,7 @@ No dia da entrega, seu cliente ficou novamente muito satisfeito com o programa, 
 
 <img src="./imagens/informe-float.png" >
 
-No final do dia seu cliente teve uma brilhante ideia. Como na semana que vem é o dia internacional das mulheres ele gostaria de sortear uma passagem para Natal para uma de suas funcionárias... 
+No final do dia seu cliente teve uma brilhante ideia. Como na semana que vem é o dia internacional das mulheres, ele gostaria de sortear uma passagem para Natal para uma de suas funcionárias... 
 
 Solicitou a mudança do programa para que seja permitido realizar sorteio de Strings.
 
@@ -72,7 +72,7 @@ Alguma coisa precisa ser feita para evitar essas modificações constantes nos req
 
 Nosso hipotético programador refatorou o código para que funcione de forma genérica, ou seja, independe de tipo ou objeto, a classe Sorter deverá ser capaz de realizar soteios. Deixou então de ter que construir uma classe para cada coisa que o cliente desejar sortear. Vejamos:
 
-<img src="./imagens/sorter.png" >
+<img src="./imagens/Sorter.png" >
 
 Com isso nossa Classe App ficará assim:
 
