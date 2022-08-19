@@ -27,7 +27,6 @@ Iremos então desenvolver a classe responsável pelo sorteio:
 
 <img src="./imagens/integer-sorters.png" >
 
-![Sorter de números Inteiros](imagens/integer-sorters.png)
 
 Agora desenvolveremos o programa para que o usuário impute os dados:
 
