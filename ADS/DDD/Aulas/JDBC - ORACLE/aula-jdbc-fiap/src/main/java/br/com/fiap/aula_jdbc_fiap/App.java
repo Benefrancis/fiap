@@ -25,6 +25,8 @@ public class App {
 
 			Scanner sc = new Scanner(System.in);
 
+			//salvar(conn, sc);
+			
 			findByName(conn, sc);
 
 			conn.close();
